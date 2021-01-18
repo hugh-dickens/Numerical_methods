@@ -12,11 +12,6 @@ function S = trap_rule( f, x, n )
 % output:  S - numerically evaluated integral by
 %                     trapezoidal rule
 %
-% Written by:    Stefano Giani
-%                stefano.giani@durham.ac.uk
-%
-% Created:       17/11/13
-%
 
 h = (x(2)-x(1))/n;
 
